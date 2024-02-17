@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: 0;
+}
+
+body {
+  /* min-height: 10rem;
+  min-width: 600px; */
+}
+
+a {
+  text-decoration: none;
+  color: #6d6d6d;
+}
+
+.btn-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: 1px solid #000;
+  height: 50px;
+  color: black;
+}
+
+.btn:link,
+.btn
+.btn:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  height: 60%;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  /* color: #000; */
+}
+
+.plans:hover,
+.plans:active {
+  background-color: mediumblue;
+  color: #c1c1c1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  box-shadow: 0px 3.2px 1.2px rgba(0, 0, 0, 0.1);
+  scroll-behavior: smooth;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-right: 10rem;
+}
+
+
+h2 {
+  font-size: 50px;
+  font-weight: 800;
+  padding-left: 20rem;
+}
+
+  .item {
+    padding: 30px 0 10px 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+
+
+.sectionHero {
+  width: 100%;
+  height: 70vh;
+ background-color: midnightblue;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+
+ .text {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bg-text {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.sm-text {
+  color: #fff;
+  font-size: 15px;
+  
+}
+
+img {
+  margin-top: 7rem;
+  width: 400px;
+  height: 70vh;
+  /* position: relative; */
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  /* margin-left: 74rem; */
+  margin-right: -73rem;
+}
+
+.waveLeft {
+  width: 210px;
+  position:relative;
+  right:16rem;
+  bottom: 18rem;
+}
+
+.btnOne a {
+  color: #fff;
+}
+
+.btnOne {
+  border: 1px solid #fff;
+  width: 30%;
+}
+
+.sect {
+  font-size: 50px;
+  font-weight: 400;
+  display: flex;
+  padding: 1rem 0 3rem 10rem;
+  align-items:center;
+  justify-content: flex-start;
+  position: relative;
+  top: 8rem;
+  margin-bottom: 5rem;
+}
+
+
+.flexCon {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  padding: 1rem 5rem 3rem 10rem;
+  gap: 40px;
+  word-wrap: break-word;
+  margin-top: 9rem;
+}
+
+.flexCon > div > h3 {
+  font-size: 30px;
+}
+
+.flexCon > div > img {
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+}
+
+  .frame {
+   background: midnightblue url(/image/bg-pattern-how-we-work-desktop.png);
+   background-repeat: no-repeat;
+   background-position: right;
+    margin: 5rem 3rem 5rem 10rem;
+    padding: 60px 40px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    gap: 70px;
+}
+
+.btnTwo a {
+  color: #fff;
+}
+
+.btnTwo {
+  border: 1px solid #fff;
+  width: 15%;
+}
+
+.inner-text {
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-right: 20rem;
+}
+
+
+
+footer {
+  background: #c1c1c1;
+  margin-bottom: 25px;
+  height: 50vh;
+}
+
+.footerOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerOne img {
+  height: 50px;
+  width: 70px;
+}
+
+.footer-wrapper {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 70px;
+  list-style-type: none;
+  }
+
+ .footer-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ }
+
+ .footer-wrapper  h3 {
+  color: #3d3d3d;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 500;
+ }
+
