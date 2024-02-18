@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap & https://fonts.google.com/specimen/DM+Serif+Display' );
+
+
 * {
   padding: 0;
   margin: 0;
@@ -24,6 +27,13 @@ a {
   color: black;
 }
 
+.btn-nav:hover,
+.btn-nav:active {
+  border: none;
+  border-radius: 50px;
+  background-color: #8a8aff;
+}
+
 .btn:link,
 .btn
 .btn:visited {
@@ -42,7 +52,6 @@ a {
 
 .plans:hover,
 .plans:active {
-  background-color: mediumblue;
   color: #c1c1c1;
 }
 
@@ -68,8 +77,9 @@ nav {
 
 
 h2 {
+  font-family: "DM serif display";
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 400;
   padding-left: 20rem;
 }
 
@@ -82,7 +92,10 @@ h2 {
     gap: 30px;
   }
 
-
+.line {
+  border: 1px solid #fff;
+  width: 95px;
+}
 
 .sectionHero {
   width: 100%;
@@ -101,6 +114,7 @@ h2 {
 }
 
 .bg-text {
+  font-family: "Karla";
   font-size: 3rem;
   color: #fff;
 }
@@ -146,13 +160,19 @@ img {
   font-weight: 400;
   display: flex;
   padding: 1rem 0 3rem 10rem;
+  margin-top: 15rem;
   align-items:center;
   justify-content: flex-start;
-  position: relative;
-  top: 8rem;
-  margin-bottom: 5rem;
+
 }
 
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
 
 .flexCon {
   display: flex;
@@ -160,8 +180,8 @@ img {
   justify-content:flex-start;
   padding: 1rem 5rem 3rem 10rem;
   gap: 40px;
+  margin-top: -5em;
   word-wrap: break-word;
-  margin-top: 9rem;
 }
 
 .flexCon > div > h3 {
@@ -207,22 +227,28 @@ img {
 }
 
 
+h4{
+  font-size: 30px;
+} 
+
 
 footer {
-  background: #c1c1c1;
-  margin-bottom: 25px;
-  height: 50vh;
+  background:  url(/image/bg-pattern-footer-desktop.png) #fefcfc;
+  background-repeat: no-repeat;
+  padding:0 10rem;
+ 
 }
 
 .footerOne {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footerOne img {
-  height: 50px;
-  width: 70px;
+  height: auto;
+  width: auto;
+  gap: 95px;
 }
 
 .footer-wrapper {
@@ -245,5 +271,13 @@ footer {
   margin-bottom: 25px;
   font-size: 18px;
   font-weight: 500;
+  font-family:  "Karla", sans-serif;
  }
+
+.footer-wrapper li {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400px;
+  font-family: "Karla", sans-serif;
+}
 
