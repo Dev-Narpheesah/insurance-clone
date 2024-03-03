@@ -1,19 +1,19 @@
 @media screen and(max-width:770px) {
   .sectionHero {
     height: 50vh;
-   width: 100vw;
+    width: 100vw;
   }
 
   .image {
-     margin-top: 9rem;
-  width: 200px;
-  height: 60vh;
+    margin-top: 9rem;
+    width: 200px;
+    height: 60vh;
   }
 
   .wave {
     width: 10px;
-   padding-right: 50rem;
-   bottom: 0;
+    padding-right: 50rem;
+    bottom: 0;
   }
 
   .waveLeft {
@@ -23,55 +23,85 @@
   }
 }
 
-@media (max-width:412px) {
-  .header{
-    /* max-width: 400px;
-     height: 100px; */
+@media (max-width: 460px) {
+  .header {
+    height: 120px;
+    /* width: 150vw; */
+  }
+  .btn {
+    display: none;
   }
 
-.insure{
-font-size: 20px;
-font-weight:800;
-}
-img{
-  height: 700px;
-  width:412px
-}
-.sectionHero{
-  height: 100%;
-  display: flex;
-  flex-direction: column-reverse;
-  position:relative
-  
-}
+  body {
+    width: 150%;
+  }
 
-.waveLeft {
-  position: absolute;
-  bottom :80%;
-  right: 50%;
+  .insure {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .navItem,
+  .mainItem .item a {
+    display: none;
+  }
+  img {
+    height: 700px;
+    width: 100%;
+    margin-top: 0;
+  }
+  .sectionHero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  }
 
-}
+  .waveLeft {
+    position: absolute;
+    bottom: 80%;
+    right: 50%;
+  }
 
-.waveRight{
-  width: 70px;
-  position:absolute;
-  top:60%;
-  left: 60%;
+  .waveRight {
+    width: 70px;
+    position: absolute;
+    top: 70%;
+    left: 98%;
+  }
 
- 
-}
-.imgWave{
-    width: 180px;
-    height: 300px;
-   color: white; 
-}
+  .imgWave {
+    width: 215px;
+    height: 350px;
+    color: white;
+  }
 
+  .text-paragrahy {
+    width: 100%;
+  }
+  .bg-text {
+    text-align: center;
+    /* margin-left: 96px; */
+    margin-left: 10rem
+  }
+  .sm-text {
+    text-align: center;
+    margin-left: 10rem;
+    line-height: 1.5;
+    font-size: 24px;
+    max-width: 400px;
+  }
+
+  .btnOne {
+    margin-left: 10rem;
+
+  }
 
   .line {
     display: none;
   }
 
-  .text{
+  .text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,60 +110,102 @@ img{
     /* margin-top: 60px; */
     position: relative;
   }
-  
-.navItem,.mainItem .item  a {
-  display: none;
-}
 
-    .btn-mobile-nav {
+  
+
+  .btn-mobile-nav {
     display: block;
     font-size: 50px;
-
+    margin-right: 20px;
   }
 
-.btn-mobile-nav > [name="icon-hamburger.png"] {
-
+  .btn-mobile-nav > [name="icon-hamburger.png"] {
     display: none;
+  }
 
-
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect {
-  font-size: 30px;
-  font-weight: 400;
-  text-align: center;
-}
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  .weText {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin:  0 0 96px -120px;
+  }
 
   .flexCon {
     display: flex;
     flex-direction: column;
-  }
-  .frame {
-    height: 380px;
-    width: 100%;
-    display: flex;
+    gap: 20px;
     justify-content: center;
+  }
+
+  .flexCon div > img {
+    /* margin-left: 150px; */
+  }
+
+  .iconBox{
+    display: flex;
     align-items: center;
-    }
-    .text-box{
-      background-color: midnightblue;
-      background: midnightblue  url(/image/bg-pattern-how-we-work-desktop.png);
-      background-repeat: no-repeat;
-      background-position: right;
-      width: 70%;
-      }
-      .frame-box{
-       
-           display: flex;
-          align-items: center;
-          justify-content: space-between;
-          word-wrap: break-word;
-          gap: 70px;
-          padding: 20px;
-      }
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .iconBox > p {
+    line-height: 1.5;
+    font-size: 16px;
+    color: #6c6c6c;
+  }
+
+  .frame {
+    height: 680px;
+    width: 100%;
+    
+    
+  }
+  .text-box {
+    background: midnightblue url(/image/bg-pattern-intro-right-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* width: 70%; */
+    height: 50%;
+    margin-top: 90px;
+  }
+  .frame-box {
+    display: flex;
+    
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+  }
+
+  .inner-text {
+    font-size: 40px;
+  }
+  .innerFrame{
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btnTwo{
+    margin-left: 70px;
+  }
+  .btn-work{
+    color: white;
+    padding: 6px 12px;
+
+  }
+  
+  .footerOne {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
