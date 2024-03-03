@@ -1,26 +1,80 @@
-@media screen and(max-width:770px) {
+@media (max-width:768px) {
+  body{
+    width: 100%;
+  }
   .sectionHero {
-    height: 50vh;
-    width: 100vw;
+    height:520px ;
+    width: 100%;
+    position:relative;
+  }
+  
+  .image{
+    margin: -28px 2rem 0 0 ;
   }
 
-  .image {
-    margin-top: 9rem;
-    width: 200px;
-    height: 60vh;
+  .img{
+    width: 300px;
   }
 
-  .wave {
-    width: 10px;
-    padding-right: 50rem;
-    bottom: 0;
+  .waveRight {
+  position: absolute;
+  z-index: 99999;
+    top:50;
+    left:102%;
   }
 
   .waveLeft {
-    width: 100px;
-    right: 5rem;
-    bottom: 15rem;
+    width: 100px;;
+    position: absolute;
+    right: 5;
+    bottom: 5;
   }
+  .bg-text{
+    margin: 16px 42px;
+    font-size: 36px; 
+  }
+  .line{
+    margin-left: 50px;
+  }
+  .sm-text{
+    margin: 16px 42px;
+    font-size: 8px;
+    font-weight: 0;
+    line-height: 2;
+  }
+  .btn-planTwo{
+    background-color: transparent;
+    margin: 16px 42px;
+  }
+  .btn-planTwo:hover {
+    background-color: #fff;
+    color:black;
+    cursor:pointer;
+  }
+
+  .weText {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .iconBox p {
+    font-size: 10px;
+    font-weight: 0;
+  }
+
+  .frame {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .text-box{
+    width: 95%;
+    }
+   
 }
 
 @media (max-width: 460px) {
@@ -44,7 +98,7 @@
   .mainItem .item a {
     display: none;
   }
-  img {
+  .img {
     height: 700px;
     width: 100%;
     margin-top: 0;
@@ -66,6 +120,7 @@
   .waveRight {
     width: 70px;
     position: absolute;
+    /* rotate: 60deg; */
     top: 70%;
     left: 98%;
   }
@@ -129,6 +184,7 @@
     justify-content: center;
     gap: 60px;
   }
+
   .weText {
     font-size: 30px;
     font-weight: 900;

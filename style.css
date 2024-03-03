@@ -21,7 +21,7 @@ a {
 
 .header {
   position:sticky;
-    z-index: 1;
+    z-index: 9999;
   /* top: 0; */
   box-shadow: 3.2px 3.2px 8px rgba(21, 19, 19, 0.5);
   scroll-behavior: smooth;
@@ -152,10 +152,11 @@ img {
   bottom: -18rem;
 }
 
-.btnOne  {
+.btn-planTwo  {
   padding: 9px 14px;
   background-color: transparent;
   border: 1px solid #fff;
+  width: 0px;
 }
 
 .btnOne:hover {
