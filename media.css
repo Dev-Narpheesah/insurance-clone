@@ -1,0 +1,139 @@
+@media screen and(max-width:770px) {
+  .sectionHero {
+    height: 50vh;
+   width: 100vw;
+  }
+
+  .image {
+     margin-top: 9rem;
+  width: 200px;
+  height: 60vh;
+  }
+
+  .wave {
+    width: 10px;
+   padding-right: 50rem;
+   bottom: 0;
+  }
+
+  .waveLeft {
+    width: 100px;
+    right: 5rem;
+    bottom: 15rem;
+  }
+}
+
+@media (max-width:412px) {
+  .header{
+    /* max-width: 400px;
+     height: 100px; */
+  }
+
+.insure{
+font-size: 20px;
+font-weight:800;
+}
+img{
+  height: 700px;
+  width:412px
+}
+.sectionHero{
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  position:relative
+  
+}
+
+.waveLeft {
+  position: absolute;
+  bottom :80%;
+  right: 50%;
+
+}
+
+.waveRight{
+  width: 70px;
+  position:absolute;
+  top:60%;
+  left: 60%;
+
+ 
+}
+.imgWave{
+    width: 180px;
+    height: 300px;
+   color: white; 
+}
+
+
+  .line {
+    display: none;
+  }
+
+  .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 412px;
+    /* margin-top: 60px; */
+    position: relative;
+  }
+  
+.navItem,.mainItem .item  a {
+  display: none;
+}
+
+    .btn-mobile-nav {
+    display: block;
+    font-size: 50px;
+
+  }
+
+.btn-mobile-nav > [name="icon-hamburger.png"] {
+
+    display: none;
+
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+  .flexCon {
+    display: flex;
+    flex-direction: column;
+  }
+  .frame {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .text-box{
+      background-color: midnightblue;
+      background: midnightblue  url(/image/bg-pattern-how-we-work-desktop.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      width: 70%;
+      }
+      .frame-box{
+       
+           display: flex;
+          align-items: center;
+          justify-content: space-between;
+          word-wrap: break-word;
+          gap: 70px;
+          padding: 20px;
+      }
+}

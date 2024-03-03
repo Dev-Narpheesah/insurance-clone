@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insure-landing-clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <header>
-        <h2>Insure</h2>
+    <header class="header">
+        <div>
+            <h2 class="insure">Insure</h2>
+        </div>
         <nav class="mainItem">
+            
             <ul class="item">
-                <li><a href="#">How we work</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Account</a></li>
+                <li class="navItem"><a href="#">How we work</a></li>
+                <li class="navItem"><a href="#">Blog</a></li>
+                <li class="navItem"><a href="#">Account</a></li>
 
-                <ul class="btn-nav">
-                    <a href="#" class="btn plans">View Plans</a>
-                </ul>
+                    <button class="btn">
+                   <li  > <a href="#">View Plans</a>
+                   </li>
+                </button>
             </ul>
-        </nav>
+        
+    </nav>
+            <div class="btn-mobile-nav" >
+
+    <img src="image/icon-hamburger.png" alt="" class="nav-mobile-icon"/>
+            </div>
     </header>
 
 
@@ -31,23 +41,24 @@
           
                 
                 <div class="text">
-                    <div class="line"><a href="#"></a></div>
-                       <p class="bg-text">Humanizing <br> your insurance</p>
+                    <div class="line"></div>
+                       <p class="bg-text">Humanizing <br> your insurance.</p>
 
                     <p class="sm-text">Get your life insurance coverage easier and faster. We blend our expertise <br> 
                         and technology to help you find the plan that&apos;s right for you. Ensure you <br>
                         and your loved ones are protected.</p>
                            <div class="btnOne">
-                            <a href="#" class="btn planTwo">View Plans</a>
+                            <a href="#" class="btn-planTwo">View Plans</a>
                         </div>
-                           <img src="image/bg-pattern-intro-left-desktop.png" alt="" class="waveLeft">
-                  
-                </div>
-
-                    <div class="wave">
-
-                        <img src="image/bg-pattern-intro-right-desktop.png" alt="">
-                    </div>
+                        <div  class="waveLeft">
+                           <img class="imgWave" src="image/bg-pattern-intro-left-desktop.png" alt="">
+                        </div>
+                           
+                           
+                               <div class="waveRight">
+                               <img class="imgWave" src="image/bg-pattern-intro-right-desktop.png" alt="">
+                            </div>
+                        </div>
                 <div class="image">
                     <img src="image/image-intro-desktop.jpg" alt="">
                 </div>
@@ -59,12 +70,12 @@
         <!-- ICONS -->
         <section class="container">
             <div class="sect">
-                
+                <div class="line"></div>
                 <p>We&apos;re different</p>
             </div>
             <div class="flexCon">
                 <div>
-                   <img src="image/icon-snappy-process.png" alt="">
+                   <img src="image/icon-snappy-process.png"  alt="">
                     <h3>Snappy process</h3>
                     <p> Our application process can be completed in minutes, not hours. Don’t get 
                         stuck filling in tedious forms.
@@ -89,35 +100,47 @@
 
         <!-- frame -->
         <section class="frame">
+            <div class="text-box">
+            <div class="frame-box">
             <div class="innerFrame">
                 <h3 class="inner-text">Find out more <br> about how we work</h3>
-                
             </div>
-            <div class="btnTwo">
-                <a href="#" class="btn">How we work</a>
+                <div>
+                                    <button class="btnTwo">
+                    <a href="#" class="btn-work">How we work</a>
+                </button>
             </div>
+
+            </div>
+        </div>
         </section>
-      
-    </main>
+        
+    </main> 
 
     <!-- FOOTER -->
-    <footer>
-    <section>
-        <div class="footerOne">
-            <div>
+     <footer>
+         
+         <div class="section-footer-1">
+                 <div class="footerOne">
+             <div class="footer-text">
                 <h4>Insure</h4>
             </div>
-            <div>
-         <a href=""><ion-icon name="logo-facebook"></ion-icon></a>  
-         <a href=""><ion-icon name="logo-twitter"></ion-icon></a>   
-         <a href=""><ion-icon name="logo-pinterest"></ion-icon></a>   
-         <a href=""><ion-icon name="logo-instagram"></ion-icon></a> 
+            <div class="footers-img">
+                <a href="#"><ion-icon class="footer-img"  name="logo-facebook"></ion-icon></a>  
+                <a href="#"><ion-icon class="footer-img"  name="logo-twitter"></ion-icon></a>  
+                <a href="#"><ion-icon  class="footer-img" name="logo-pinterest"></ion-icon></a>  
+                <a href="#"><ion-icon class="footer-img"  name="logo-instagram"></ion-icon></a>  
+                <!-- <a href=ion-icon-name= mage/icon-facebook.png"/></a>  
+                <a href="#"><img class="footer-img" src="image/icon-twitter.png"/></a>   
+                <a href="#"><img class="footer-img" src="image/icon-pinterest.png"/></a>   
+                <a href="#"><img class="footer-img" src="image/icon-instagram.png"/></a>  -->
+            </div>
         </div>
-        </div>
+    </div>
 
         <div class="footer-wrapper">
-            <section>
-                <h3>Our company</h3>
+            <section >
+                <h3 class="footer-header">Our company</h3>
                 <ul>
                     <li><a href="#">How we work</a></li>
                     <li><a href="#">Why insure?</a></li>
@@ -127,7 +150,7 @@
             </section>
 
             <section>
-                <h3>Help me</h3>
+                <h3 class="footer-header">Help me</h3>
                 <ul>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Terms of use</a></li>
@@ -137,7 +160,7 @@
             </section>
 
             <section>
-                <h3>Contact</h3>
+                <h3 class="footer-header">Contact</h3>
                 <ul>
                 <li><a href="#">Sales</a></li>
                 <li><a href="#">Support</a></li>
@@ -146,7 +169,7 @@
             </section>
 
             <section>
-                <h3>Others</h3>
+                <h3 class="footer-header">Others</h3>
                 <ul>
                 <li><a href="#">Career</a></li>
                 <li><a href="#">Press</a></li>
@@ -154,11 +177,10 @@
             </ul>
             </section>
         </div>
-    </section>
 </footer>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
-</html>
+</html> 
